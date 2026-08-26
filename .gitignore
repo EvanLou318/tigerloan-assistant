@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+dist-check/
+
+# Vite 临时文件
+vite.config.js.timestamp-*
+
+# 本地环境
+.env.local
+.env.*.local
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器/系统
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# 截图验证脚本产物（临时）
+*.local
